@@ -9,5 +9,6 @@ RUN [ "cross-build-end" ]
 
 
 COPY run_picamera.sh .
+COPY run_watchtower_picamera.sh .
 
 CMD [ "./run_picamera.sh" ]
